@@ -16,7 +16,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from AppIntermedio.views import libros, inicio, crear, editar
-
+from django.conf import settings
+from django.contrib.staticfiles.urls import static
 
 
 urlpatterns = [
